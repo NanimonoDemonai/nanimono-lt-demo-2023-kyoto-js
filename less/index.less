@@ -1,0 +1,13 @@
+.container {
+  .awesome {
+    color: red;
+
+    & when (isdefined(@textSpecial2023)) {
+      text-emphasis: dot;
+    }
+  }
+}
+
+& when (isdefined(@textSpecial2023)) {
+  @import '_hidden_module';
+}

@@ -1,0 +1,21 @@
+{
+  "comment": {
+    "featureFlags": {
+      "example_feature_flag": {
+        "comment": "コメント: 出し分けたいフィーチャフラグ名をfeatureFlags配下にキーとして入れる"
+      }
+    },
+    "styles": ["ここにフィーチャーフラグを適用したいlessへのパスを配列で入れる", "例→", "less/hoge/fuga.less"]
+  },
+  "featureFlags": {
+    "feature_flag_debug": {
+      "comment": "フィーチャーフラグのデバッグ用"
+    },
+    "textSpecial2023": {
+      "comment": "テキストをスペシャルにする"
+    }
+  },
+  "styles": [
+    "less/index.less"
+  ]
+}
